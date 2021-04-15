@@ -1,4 +1,4 @@
-package com.example.cloudy_java;
+package com.app.cloudy;
 
 import androidx.appcompat.app.AppCompatActivity;
 

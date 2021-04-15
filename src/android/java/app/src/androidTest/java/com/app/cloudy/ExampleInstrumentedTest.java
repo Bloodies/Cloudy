@@ -1,4 +1,4 @@
-package com.example.cloudy_java;
+package com.app.cloudy;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.cloudy_java", appContext.getPackageName());
+        assertEquals("com.app.cloudy", appContext.getPackageName());
     }
 }

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Step3Activity">
+
+    <!-- hat -->
+    <View
+        android:id="@+id/step3_activity_hat"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:background="#4168FF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/step3_activity_step3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/step_3_3"
+        android:textAppearance="@style/hat_text"
+        app:layout_constraintStart_toStartOf="@+id/step3_activity_hat"
+        app:layout_constraintEnd_toEndOf="@+id/step3_activity_hat"
+        app:layout_constraintBottom_toBottomOf="@+id/step3_activity_hat"
+        app:layout_constraintTop_toTopOf="@+id/step3_activity_hat"
+        android:layout_marginBottom="24dp"
+        />
+    <View
+        android:id="@+id/step3_activity_ellipse1"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/ellipse"
+        app:layout_constraintTop_toBottomOf="@id/step3_activity_step3"
+        app:layout_constraintBottom_toBottomOf="@id/step3_activity_hat"
+        app:layout_constraintStart_toStartOf="@id/step3_activity_step3"
+        app:layout_constraintEnd_toStartOf="@id/step3_activity_ellipse2"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        />
+    <View
+        android:id="@+id/step3_activity_ellipse2"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/ellipse"
+        app:layout_constraintTop_toBottomOf="@id/step3_activity_step3"
+        app:layout_constraintBottom_toBottomOf="@id/step3_activity_hat"
+        app:layout_constraintStart_toEndOf="@id/step3_activity_ellipse1"
+        app:layout_constraintEnd_toStartOf="@id/step3_activity_ellipse3"
+
+        />
+    <View
+        android:id="@+id/step3_activity_ellipse3"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/ellipse"
+        app:layout_constraintTop_toBottomOf="@id/step3_activity_step3"
+        app:layout_constraintBottom_toBottomOf="@id/step3_activity_hat"
+        app:layout_constraintStart_toEndOf="@id/step3_activity_ellipse2"
+        app:layout_constraintEnd_toEndOf="@id/step3_activity_step3"
+        />
+
+    <TextView
+        android:id="@+id/step3_activity_notifications"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Notifications"
+        android:textAppearance="@style/main_text"
+        app:layout_constraintTop_toBottomOf="@id/step3_activity_hat"
+        app:layout_constraintBottom_toTopOf="@+id/step1_activity_gender"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="24dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextTime2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintTop_toBottomOf="@id/step3_activity_notifications"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <Button
+        android:id="@+id/step3_activity_okay"
+        android:layout_width="0dp"
+        android:layout_height="74dp"
+        android:backgroundTint="#4168FF"
+        android:text="@string/Okay"
+        android:textAppearance="@style/hat_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="24dp"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

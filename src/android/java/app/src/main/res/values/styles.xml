@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="hat_text">
+        <item name="android:textSize">
+            20sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+        hat_text
+    </style>
+
+    <style name="main_text">
+        <item name="android:textSize">
+            26sp
+        </item>
+
+        <item name="android:textColor">
+            #1F252C
+        </item>
+    </style>
+
+    <style name="gray_text">
+        <item name="android:textSize">
+            20sp
+        </item>
+
+        <item name="android:textColor">
+            #999999
+        </item>
+        hat_text
+    </style>
+
+    <style name="main_text2">
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #1F252C
+        </item>
+    </style>
+
+    <style name="Info_title">
+        <item name="android:textSize">
+            24sp
+        </item>
+
+        <item name="android:textColor">
+            #1F252C
+        </item>
+    </style>
+
+    <style name="Info">
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #666666
+        </item>
+    </style>
+
+
+
+    <style name="Degrees">
+        <item name="android:textSize">
+            70sp
+        </item>
+
+        <item name="android:textColor">
+            #1F252C
+        </item>
+    </style>
+
+    <style name="Geo">
+        <item name="android:textSize">
+            22sp
+        </item>
+
+        <item name="android:textColor">
+            #1F252C
+        </item>
+    </style>
+
+    <style name="wind">
+        <item name="android:textSize">
+            13.5sp
+        </item>
+
+        <item name="android:textColor">
+            #1F252C
+        </item>
+    </style>
+
+    <style name="wind_value">
+        <item name="android:textSize">
+            17sp
+        </item>
+
+        <item name="android:textColor">
+            #1F252C
+        </item>
+    </style>
+
+    <style name="headgear">
+        <item name="android:textSize">
+            20sp
+        </item>
+    </style>
+</resources>
